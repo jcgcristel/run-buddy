@@ -77,6 +77,7 @@ section {
     padding: 60px;
 }
 
+/* homepage hero */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
@@ -239,6 +240,8 @@ h3 {
 
 .contact h2 {
     color:#fce138;
+    display: table;
+    margin: auto;
 }
 
 .contact iframe {
@@ -253,4 +256,21 @@ h3 {
     text-align: left;
     margin: 30px 0 0 60px;
     color: white;
+}
+
+.contact h3 {
+    color: #fce138;
+    font-size: 32px;
+}
+
+.contact p, 
+.contact address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.contact a {
+    color: #fce138;
 }
