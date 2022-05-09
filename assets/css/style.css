@@ -9,9 +9,14 @@ body {
     font-family: Helvetica,  Arial, sans-serif;
 }
 
+/* header styling */
+
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -19,7 +24,6 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 }
 
 header a {
@@ -28,7 +32,6 @@ header a {
 }
 
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
@@ -41,6 +44,8 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+
+/* footer styling */
 
 footer {
     background-color: #fce138;
@@ -65,11 +70,14 @@ footer a {
     color: #024e76;
 }
 
+/* section styling */
+
 section {
     padding: 60px;
 }
 
-/* homepage hero */
+/* homepage hero styling */
+
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
@@ -120,6 +128,8 @@ section {
     font-size: 16px;
 }
 
+/* intro styling */
+
 .intro {
     text-align: center;
 }
@@ -149,6 +159,8 @@ section {
     border-color: #39a6b2;
   } 
 
+/* steps styling */
+
 .steps {
     text-align: center;
     background: #fce138;
@@ -177,6 +189,8 @@ section {
 .steps span {
     font-size: 38px;
 }
+
+/* trainer styling */
 
 .trainers {
     text-align: center;
@@ -224,6 +238,8 @@ section {
 .text-right {
     text-align: right;
 }
+
+/* contact styling */
 
 .contact {
     text-align: center;
